@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./img/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="library-option">
+                    <div class="your-lib nav-option">
+                        <img src="./img/library_icon.png" alt="">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./img/backward_icon.png" alt="Backward" class="hide">
+                    <img src="./img/forward_icon.png" alt="Forward">
+                </div>
+                <div class="sticky-nav-items">
+                    <div class="badge item hide">Upgrade</div>
+                    <div class="badge dark-badge item"><i class="fa-regular fa-circle-down" style="margin-right:5px ;"></i>Install App</div>
+                    <i class="fa-regular fa-user item" style="color: white;"></i>
+                </div>
+            </div>
+
+            <h2>Most Played Songs</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./img/card1img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Daily updates of the most played...</p>
+                </div>
+            </div>
+
+            <h2>Popular artists</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./img/artists/arijit.jpg" class="card-img rounded-card" alt="">
+                    <p class="card-title">Arijit Singh</p>
+                    <p class="card-info">Artist</p>
+                </div>
+                <div class="card">
+                    <img src="./img/artists/jubin.jpg" class="card-img rounded-card" alt="">
+                    <p class="card-title">Jubin Nautiyal</p>
+                    <p class="card-info">Artist</p>
+                </div>
+                <div class="card">
+                    <img src="./img/artists/honey.jpg" class="card-img rounded-card" alt="">
+                    <p class="card-title">Yo Yo Honey Singh</p>
+                    <p class="card-info">Artist</p>
+                </div>
+                <div class="card">
+                    <img src="./img/artists/darshan.jpg" class="card-img rounded-card" alt="">
+                    <p class="card-title">Darshan Raval</p>
+                    <p class="card-info">Artist</p>
+                </div>
+            </div>
+
+            <h2>Popular albums</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./img/Pop-albums/ANIMAL.jpg" class="card-img" alt="">
+                    <p class="card-title">ANIMAL</p>
+                    <p class="card-info">Manan Bhardwaj, Vishal Mishra , Jaani</p>
+                </div>
+                <div class="card">
+                    <img src="./img/Pop-albums/raja.jpg" class="card-img" alt="">
+                    <p class="card-title">Ek Tha Raja</p>
+                    <p class="card-info">Badshah</p>
+                </div>
+                <div class="card">
+                    <img src="./img/Pop-albums/stillrollin.jpg" class="card-img" alt="">
+                    <p class="card-title">Still Rollin</p>
+                    <p class="card-info">Shubh</p>
+                </div>
+                <div class="card">
+                    <img src="./img/Pop-albums/ashiqui2.jpg" class="card-img" alt="">
+                    <p class="card-title">Aashiqui 2</p>
+                    <p class="card-info">Mithoon, Ankit Tiwari, Jeet Gannguli</p>
+                </div>
+            </div>
+
+            
+
+            <h2>Spotify Original Podcasts</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./img/Playlist/krishna.jpg" class="card-img" alt="">
+                    <p class="card-title">Shree Krishna Leela</p>
+                    <p class="card-info">Spotify Studios</p>
+                </div>
+                <div class="card">
+                    <img src="./img/Playlist/pretkotha.jpg" class="card-img" alt="">
+                    <p class="card-title">PretKotha</p>
+                    <p class="card-info">Gourav Tapadar</p>
+                </div>
+                <div class="card">
+                    <img src="./img/Playlist/rogan.jpg" class="card-img" alt="">
+                    <p class="card-title">The Joe Rogan Experience</p>
+                    <p class="card-info">Joe Rogan</p>
+                </div>
+                <div class="card">
+                    <img src="./img/Playlist/triggered.jpg" class="card-img" alt="">
+                    <p class="card-title">Triggered Insaan True Story</p>
+                    <p class="card-info">Spotify</p>
+                </div>
+            </div>
+
+            <h2>Spotify Playlists</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./img/Playlist/friday.jpg" class="card-img" alt="">
+                    <p class="card-title">New Music Friday</p>
+                    <p class="card-info">The very best in new music around the world</p>
+                </div>
+                <div class="card">
+                    <img src="./img/Playlist/happy.jpg" class="card-img" alt="">
+                    <p class="card-title">Happy Beats</p>
+                    <p class="card-info">Feel-good dance music!</p>
+                </div>
+                <div class="card">
+                    <img src="./img/Playlist/indie.jpg" class="card-img" alt="">
+                    <p class="card-title">All new music</p>
+                    <p class="card-info">The best new music very Friday</p>
+                </div>
+                <div class="card">
+                    <img src="./img/Playlist/metal.jpg" class="card-img" alt="">
+                    <p class="card-title">All new Metal</p>
+                    <p class="card-info">This Weeks track in all new Metal</p>
+                </div>
+            </div>
+
+            <br><br><br><br><br>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <img src="./img/HW/album_picture.jpeg" alt="" class="song-img album-item">
+                <div class="song-name album-item">
+                    <div class="the-song">Tera Fitoor</div>
+                    <div class="the-singer">Arijit Singh</div>
+                </div>
+                <img src="./img/HW/album_icon1.png" alt="" class="album-item">
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./img/player_icon1.png" alt="" class="playback-control-icon">
+                    <img src="./img/player_icon2.png" alt="" class="playback-control-icon">
+                    <img src="./img/player_icon3.png" alt="" class="playback-control-icon" style="opacity: 1; height: 2rem;">
+                    <img src="./img/player_icon4.png" alt="" class="playback-control-icon">
+                    <img src="./img/player_icon5.png" alt="" class="playback-control-icon">
+                </div>
+                <div class="playback-bar">
+                   <span class="curr-time">00:00</span> 
+                   <input type="range" min="0" max="100" class="progress-bar">
+                   <span class="tot-time">3:45</span>
+                </div>
+            </div>
+            <div class="controls">
+                <img src="./img/HW/controls_icon1.png" alt="" class="controls-icon" style="opacity: 1; height: 3.3rem;">
+                <img src="./img/HW/controld_icon2.png" alt="" class="controls-icon" style="opacity: 1; height: 2.9rem;">
+                <img src="./img/HW/controls_icon3.png" alt="" class="controls-icon" style="opacity: 0.65; height: 2rem;">
+                <img src="./img/HW/controls_icon4.png" alt="" class="controls-icon" style="opacity: 0.5; height: 1.4rem;">
+                <img src="./img/HW/controls_icon5.png" alt="" class="controls-icon" style="opacity: 0.9; height: 2.8rem; margin-right: 0;">
+                <input type="range" min="0" max="100"class="volume-control">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
